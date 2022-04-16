@@ -1,0 +1,54 @@
+procedure testIf {
+
+    a = b + 1;                                                          //1
+
+    while(b > 1) {                                                      //2
+
+        a = b + c;                                                      //3
+
+        if ((x > y) && (y < z)) then {                                  //4
+            read a;                                                     //5
+	        x = y + z - x % y;                                          //6
+            
+            if ((a > c) || (b > a)) then {                              //7
+                read x;                                                 //8
+                print b;                                                //9
+                b = (x + 5) * y;                                        //10
+            } else {
+                
+                if (((c == 3) && (!(d != e))) || (f < c)) then {        //11
+                    print a;                                            //12
+                } else {
+                    print c;                                            //13
+                }
+            }
+            a = c + b * c;                                              //14
+
+        } else {                                  
+            e = f % g;                                                  //15
+            
+            if ((4 / x + 3) == 5) then {                                //16
+                y = y * (z - a);                                        //17                                          
+                c = c + c + c;                                          //18
+            } else {
+                print g;                                                //19
+            }
+        }       
+        read b;                                                         //20              
+    }
+
+    if (p != 3) then {                                                  //21
+        q = 4;                                                          //22
+    } else {
+        r = 3;                                                          //23
+    }
+
+    if ((x != y) || (y > z)) then {                                     //24
+        print m;                                                        //25      
+        print n; 				                                        //26
+    } else {            
+	    m = 3;                                                          //27
+    }
+
+    z = z * z;                                                          //28
+}

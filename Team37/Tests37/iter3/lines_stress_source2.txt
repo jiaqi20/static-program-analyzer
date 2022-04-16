@@ -1,0 +1,234 @@
+procedure test { //1
+	read x12A; //2
+	print x; //3
+	read x; //4
+	read x; //5
+	if (x == 0) then { //6
+		while ((x12A < 0) && (n123 > 123)) { //7
+			read x; //8
+			read x; //9
+			read x; //10
+			read x; //11
+			read x; //12
+			read x; //13
+			read x; //14
+			read x; //15
+			read x; //16
+			read x; //17
+			read x; //18
+			read x; //19
+			read x; //20
+			read x; //21
+			read x; //22
+			read x; //23
+			read x; //24
+			read x; //25
+			read x; //26
+			read x; //27
+			read x; //28
+			read x; //29
+			read x; //30
+			read x; //31
+			read x; //32
+			while (asdbasdkaskmknsaks == 12345) { //33
+				if ((x == 0) || (y == 0)) then { //33
+					while (ajsaksdj == 0) { //34
+						call proc; //35
+							read x; //36
+							read x; //37
+							read x; //38
+							read x; //39
+							read x; //40
+							read x; //41
+							read x; //42
+							read x; //43
+							read x; //44
+							read x; //45
+							read x; //46
+							read x; //47
+							read x; //48
+							read x; //50
+							read x; //51
+							read x; //52
+							read x; //53
+							read x; //54
+							read x; //55
+							read x; //56
+							read x; //57
+							read x; //58
+							read x; //59
+							read x; //60
+							read x; //61
+							read x; //62
+							read x; //63
+							read x; //64
+							read x; //65
+							read x; //66
+							read x; //67
+							read x; //68 
+							read x; //69
+							read x; //70
+							read x; //71
+							if ((abc == 12344) && (proc == proc1)) then {//72
+								y = 980; //73
+							} else { 
+								x = 123; //74
+								call proc1;
+							}
+					}
+				} else {
+					while (asdbasdkaskmknsaks == 12345) { //75
+						if ((x == 0) || (y == 0)) then { //76
+								read x; //77
+								read x; //78
+								read x; //79
+								read x; //80
+								read x; //81
+								read x; //82
+								read x; //83
+								read x; //84
+								read x; //85
+								read x; //86
+								read x; //87 
+								read x; //88
+								read x; //89
+								read x; //90
+								read x; //91
+								read x; //92
+								read x; //93
+								read x; //94
+								read x; //95
+								read x; //96
+								read x; //97
+								read x; //98
+								read x; //99
+								read x; //100
+								read x; //101
+							while (ajsaksdj == 0) { //102
+								call proc; //103
+							}
+						} else {
+							x = test; //104
+								read x; //105 
+								read x; //106
+								read x; //107
+								read x; //108
+								read x; //109
+								read x; //110
+								read x; //111
+								read x; //112
+								read x; //113
+								read x; //114
+								read x; //115
+								read x; //116
+								read x; //117
+								read x; //118
+								read x; //119
+								read x; //120
+								read x; //121
+								read x; //122
+								read x; //123
+								read x; //124
+								read x; //125
+								read x; //126
+								read x; //127
+						}
+					}
+				}
+			}
+		}
+
+	} else {
+		if (i == 0) then { //128
+			abc = 123 + (12 - (130049540 % 1234) * asn) / bn1023; //129
+		} else {
+			while ((1 == 1) && (test == test)) { //130
+				while (999999999999999999999 == 99999999999999999999999999) { //131
+					read x; //132
+					read x; //133
+					read x; //134
+					read x; //135
+					read x; //136
+					read x; //137
+					read x; //138
+					read x; //140
+					read x; //141
+					read x; //142
+					read x; //143
+					read x; //144
+					read x; //145
+					read x; //146
+					read x; //147
+					read x; //148
+					read x; //149
+					read x; //150
+					read x; //151
+					read x; //152
+					read x; //153
+					read x; //154
+					read x; //155
+					read x; //156
+					while (abcd < 0) { //157
+						print abcd; //158
+					}
+				}
+			}
+		}
+	}
+	read x; //159
+	read x; //160
+	read x; //161
+	read x; //162
+	read x; //163
+	read x; //164
+	read x; //165
+	read x; //166
+	read x; //167
+	read x; //168
+	read x; //169
+	read x; //170
+	read x; //171
+	read x; //172
+	read x; //173
+	read x; //174
+	read x; //175
+	read x; //176
+	read x; //177
+	read x; //178
+	read x; //179
+	read x; //180
+	read x; //181
+	read x; //182
+	read x; //183
+}
+
+procedure proc {
+	print xyz; //184
+}
+
+procedure proc1 {
+	print xyz; //185
+	if (12 == 12) then { //186
+		x = 1; //187
+		while(x==0) { //188
+			while(x==0){ //189
+				while(x==0){ //190
+					while(x==0){ //191
+						while(x==0) { //192
+							read x; //193
+							read x; //194
+							read x; //195
+							print x; //196
+							x = 1; //197
+							read x; //198
+							call proc; //199
+						}
+					}
+				}
+			}
+		}
+	} 
+	else {
+		y = 2; //200
+	}
+}

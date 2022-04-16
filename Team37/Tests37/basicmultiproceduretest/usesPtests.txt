@@ -1,0 +1,40 @@
+1 - comment
+procedure p;
+Select p such that Uses(p, "x")
+Second, First
+5000
+2 - comment
+procedure p;
+Select p such that Uses(p, "a")
+
+5000
+3 - comment
+variable v;
+Select v such that Uses("Third", v)
+z, v
+5000
+4 - comment
+variable v;
+Select v such that Uses("Second", v)
+x, y, i, z, v
+5000
+5 - comment
+procedure p;
+Select p such that Uses("Second", "x")
+First, Second, Third
+5000
+6 - comment
+procedure p;
+Select p such that Uses(,)
+
+5000
+7 - comment
+procedure p; variable v;
+Select p such that Uses(p, v)
+Second, Third, First
+5000
+8 - comment
+variable v;
+Select v such that Uses("First", v)
+x, y, i, z, v
+5000

@@ -1,0 +1,60 @@
+1 - comment
+stmt s ;
+Select s such that Parent ( s , 2 )
+
+5000
+2 - comment
+stmt s ;
+Select s such that Parent ( s , 4 )
+3
+5000
+3 - comment
+stmt s ;
+Select s such that Parent ( s , 7 )
+4
+5000
+4 - comment
+stmt s ;
+Select s such that Parent ( 3 , s )
+4, 8, 9, 10
+5000
+5 - comment
+stmt s ;
+Select s such that Parent ( 9 , s )
+
+5000
+6 - comment
+stmt s, s1;
+Select s such that Parent ( s , s1 )
+3, 4
+5000
+7 - comment
+stmt s, s1;
+Select s such that Parent ( s1 , s )
+4, 5, 6, 7, 8, 9, 10
+5000
+8 - comment
+stmt s ;
+Select s such that Parent ( 3, 4 )
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+5000
+9 - comment
+stmt s ;
+Select s such that Parent ( 1, 2 )
+
+5000
+10 - comment
+if ifs; while w;
+Select w such that Parent(ifs, w)
+4
+5000
+11 - comment
+if ifs;
+Select ifs such that Parent(ifs, 4)
+3
+5000
+12 - comment
+read r;
+Select r such that Parent(r, 4)
+
+5000

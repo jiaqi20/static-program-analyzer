@@ -1,0 +1,12 @@
+#!/bin/sh
+cd ..
+rm -rf ./build
+mkdir build
+cd ./build
+cmake ..
+make -j4
+cd ..
+#./build/src/autotester/autotester ../Tests37/Sample_source.txt ../Tests37/Sample_queries.txt ../Tests37/out.xml
+#./build/src/autotester/autotester ../Tests37/Source1.txt ../Tests37/query.txt ../Tests37/out.xml
+#./build/src/autotester/autotester ../Tests37/Sample_source1.txt ../Tests37/query.txt ../Tests37/out.xml
+./build/src/autotester/autotester ../Tests37/demo_source.txt ../Tests37/demo_query.txt ../Tests37/out.xml

@@ -1,0 +1,24 @@
+procedure First {
+    read x;           //1
+    read z;           //2
+    call Second; }    //3
+
+procedure Second {
+    x = 0;            //4
+    i = 5;            //5
+    while (i!=0) {    //6   
+        x = x + 2*y;  //7
+        call Third;   //8
+        i = i - 1; }  //9
+    if (x==1) then {  //10
+        x = x+1; }    //11
+    else {
+        z = 1; }      //12
+    z = z + x + i;    //13
+    y = z + 2;        //14
+    x = x * y + z; }  //15
+
+procedure Third {
+    z = 5;            //16
+    v = z;            //17
+    print v; }        //18

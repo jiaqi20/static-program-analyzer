@@ -1,0 +1,9 @@
+#!/bin/sh
+cd ../..
+rm -rf ./build
+mkdir build
+cd ./build
+cmake ..
+make -j4
+cd ..
+./build/src/autotester/autotester ../Tests37/nested_if_test/iter1_nested_if_source.txt ../Tests37/nested_if_test/iter1_nested_if_follows_queries.txt ../Tests37/out.xml

@@ -1,0 +1,70 @@
+20 - valid query with ONE Uses 
+stmt s;
+Select s such that Uses(s, "a")
+4, 7, 8
+5000
+21 - valid query with ONE Uses but has empty results 
+stmt s;
+Select s such that Uses(s, "k")
+
+5000
+22 - valid query with ONE Uses  
+stmt s; variable var;
+Select s such that Uses(s, var)
+4, 5, 6, 7, 8, 10, 11, 12, 14, 16, 18, 20, 22, 23, 25, 27
+5000
+23 - valid query with ONE Uses
+stmt s; variable var;
+Select var such that Uses(s, var)
+a, b, c, x, y, z, i, d, DeFG, g, helloworld, count, cfG, G
+5000
+24 - valid query with ONE Uses
+stmt s;
+Select s such that Uses(s, _)
+4, 5, 6, 7, 8, 10, 11, 12, 14, 16, 18, 20, 22, 23, 25, 27
+5000
+25 - valid query with ONE Uses but has empty results 
+print p;
+Select p such that Uses(p, "a")
+
+5000
+26 - invalid query with ONE Uses (stmtRef cannot be _) 
+print p1;
+Select p1 such that Uses(_, "a")
+
+5000
+27 - invalid query with ONE Uses
+stmt s;
+Select s such that Uses(_, "a1")
+
+5000
+28 - invalid query with ONE Uses
+read r;
+Select r such that Uses(_, _)
+
+5000
+29 - invalid query with ONE Uses
+variable v; 
+Select v such that Uses(_, v)
+
+5000
+30 - valid query with ONE Uses 
+stmt s;
+Select s such that Uses(8, "d")
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+31 - valid query with ONE Uses but has empty results 
+stmt s;
+Select s such that Uses(3, "x")
+
+5000
+32 - valid query with ONE Uses
+print p;
+Select p such that Uses(14, _)
+10, 18, 22, 27
+5000
+33 - valid query with ONE Uses 
+variable v;
+Select v such that Uses(8, v)
+a, b, c, x, y, z, i, d
+5000

@@ -1,0 +1,45 @@
+1 - comment
+procedure p; stmt s;
+Select <p, s> such that Modifies(s, "x")
+p 1, p 3, p 4, p 5, p 8, p 12, q 1, q 3, q 4, q 5, q 8, q 12
+5000
+2 - comment
+procedure p; stmt s;
+Select <p, s> such that Modifies(s, "x") and Uses(p, "x")
+p 1, p 3, p 4, p 5, p 8, p 12
+5000
+3 - comment
+procedure p;
+Select <p, p, p>
+p p p, q q q
+5000
+4 - comment
+
+Select BOOLEAN with 1 = 2
+FALSE
+5000
+5 - comment
+read r; procedure proc; print p;
+Select <r.varName, proc.procName, p.stmt#>
+x p 13, x q 13
+5000
+6 - comment
+procedure p;
+Select p.procName
+p, q
+5000
+7 - comment
+read r;
+Select r.varName
+x
+5000
+8 - comment
+procedure p; if ifs;
+Select p pattern ifs(_, _, _)
+p, q
+5000
+9 - comment
+procedure p; if ifs;
+Select p pattern ifs("x", _, _)
+p, q
+5000

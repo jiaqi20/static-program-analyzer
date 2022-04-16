@@ -1,0 +1,190 @@
+129 - valid query
+stmt Parent;
+Select Parent such that Parent(_, _)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+130 - valid query
+stmt s; assign a;
+Select a such that Parent(_, s)
+1, 5, 7, 11, 12, 13, 21, 25
+5000
+131 - valid query but has empty results
+stmt s; if ifs;
+Select s such that Parent(_,ifs)
+
+5000
+133 - valid query but has empty results 
+stmt s; while w;
+Select s such that Parent(_,w)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+134 - valid query but has empty results 
+stmt s;
+Select s such that Parent(_, 1)
+
+5000
+135 - valid query
+if ifs; stmt s;
+Select ifs such that Parent(s, _)
+2
+5000
+136 - valid query
+if ifs; stmt s; read r;
+Select ifs such that Parent(s, r)
+2
+5000
+137 - valid query
+constant c; stmt s; if ifs;
+Select c such that Parent(s,ifs)
+
+5000
+138 - valid query
+read r; stmt s;
+Select r such that Parent(s, 12)
+9, 18, 20, 22
+5000
+139 - valid query but has empty results 
+assign a; stmt s;
+Select s such that Parent(a, _)
+
+5000
+140 - valid query but has empty results
+if ifs; assign a; stmt s;
+Select ifs such that Parent(a, s)
+
+5000
+141 - valid query but has empty results
+while w; read r; if ifs;
+Select w such that Parent(r,ifs)
+
+5000
+142 - valid query but has empty results 
+stmt s; print p;
+Select s such that Parent(p, 20)
+
+5000
+143 - valid query
+if ifs; stmt s;
+Select s such that Parent(ifs, _)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+144 - valid query
+while w; stmt s; read r;
+Select s such that Parent(w, r)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+145 - valid query but has empty result
+stmt s; while w1, w2;
+Select s such that Parent(w1,w2)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+146 - valid query
+stmt s; if ifs;
+Select s such that Parent(ifs, 14)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+147 - valid query but has empty results
+stmt s; if ifs;
+Select s such that Parent(ifs,ifs)
+
+5000
+148 - valid query
+stmt s; if ifs; while w;
+Select s such that Parent(ifs,w)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+149 - valid query
+stmt s; while w;
+Select s such that Parent(w, 11)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+152 - valid query but has empty results (stmt number exceeds)
+stmt s; while w;
+Select w such that Parent(2, w)
+3, 6, 14
+5000
+153 - valid query
+stmt s; if ifs;
+Select s such that Parent(23, 25)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+154 - valid query but has empty results 
+if ifs; stmt s;
+Select s such that Parent(1, _)
+none
+5000
+156 - valid query but has empty results
+stmt s;
+Select s such that Parent*(14, s)
+15, 16, 17, 18
+5000
+157 - valid query but has empty results 
+stmt s;
+Select s such that Parent(19, 23)
+
+5000
+158 - valid query
+stmt s;
+Select s such that Parent(_, s)
+3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 24, 25, 26
+5000
+159 - valid query but has empty results 
+if ifs;
+Select ifs such that Parent(_,ifs)
+none
+5000
+160 - valid query but has empty results
+while w;
+Select w such that Parent(_,w)
+3, 6, 10, 14, 15, 17
+5000
+161 - valid query
+stmt s;
+Select s such that Parent(s, _)
+2, 3, 6, 10, 14, 15, 17, 19, 23
+5000
+162 - valid query 
+stmt s; assign a;
+Select a such that Parent(s, a)
+5, 7, 11, 12, 13, 21, 25
+5000
+163 - valid query but has empty results 
+stmt s; if ifs;
+Select s such that Parent(s, ifs)
+
+5000
+164 - valid query
+stmt s;
+Select s such that Parent(s, 24)
+23
+5000
+165 - valid query but has empty results
+read r;
+Select r such that Parent(r, _)
+
+5000
+166 - valid query but has empty results
+stmt s; assign a;
+Select a such that Parent(a, s)
+
+5000
+167 - invalid query (w is not declared)
+stmt s; if ifs;
+Select s such that Parent(s , w)
+
+5000
+169 - valid query
+if ifs; print p;
+Select ifs such that Parent(ifs, p)
+
+5000
+170 - valid query
+stmt s;
+Select s such that Parent(23, s)
+24, 25, 26
+5000
+171 - valid query
+read r;
+Select r such that Parent(19, r)
+20, 22
+5000

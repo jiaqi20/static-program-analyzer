@@ -1,0 +1,9 @@
+#!/bin/sh
+cd ../..
+rm -rf ./build
+mkdir build
+cd ./build
+cmake ..
+make -j4
+cd ..
+./build/src/autotester/autotester ../Tests37/basic_test_v2/iter1_basic_source.txt ../Tests37/basic_test_v2/iter1_basic_combine_queries.txt ../Tests37/out.xml

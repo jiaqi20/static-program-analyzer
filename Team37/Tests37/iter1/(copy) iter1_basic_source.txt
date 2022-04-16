@@ -1,0 +1,37 @@
+procedure basic {
+    a = 1;                                  //1          
+    b = 2;                                  //2  
+    c = 3;                                  //3
+
+    a = a * 2;                              //4
+    b = b + 1;                              //5
+    c = c - 1;                              //6
+    d = 10 / a;                             //7
+    e = a * b / c + x * y * z - i + d;      //8
+
+    read hello                              //9
+    print DeFG                              //10
+
+    G = 12324141242141414141 * g;           //11
+    e = helloworld * 10;                    //12
+    abcDEF123 = 123;                        //13
+
+    if (x > c) then {                       //14
+        abc = 123;                          //15
+        count = count + 2;                  //16
+        read abc;                           //17
+        print cfG;                          //18
+    } else {
+        abc = 456;                          //19
+        count = count + 123;                //20
+        read a;                             //21
+        print G;                            //22
+    }
+
+    while (i != 123) {                      //23
+        abc = 12;                           //24
+        count = count + 1;                  //25
+        read a;                             //26
+        print G;                            //27
+    }
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+cd ../..
+rm -rf ./build
+mkdir build
+cd ./build
+cmake ..
+make -j4
+cd ..
+./build/src/autotester/autotester ../Tests37/assignment_test/assignment.txt ../Tests37/assignment_test/assignment_query.txt ../Tests37/out.xml

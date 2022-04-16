@@ -1,0 +1,20 @@
+1 - comment
+stmt s ;
+Select s with s.stmt# = 2
+2
+5000
+2 - comment
+stmt s ; procedure p;
+Select s with p.procName = "p"
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+5000
+3 - comment
+stmt s ; procedure p;
+Select s with p.procName = "notexist"
+
+5000
+4 - comment
+stmt s;
+Select s with 2 = 2
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+5000

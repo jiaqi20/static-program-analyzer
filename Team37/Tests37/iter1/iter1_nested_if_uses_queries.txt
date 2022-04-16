@@ -1,0 +1,55 @@
+1 - valid query with ONE Uses 
+stmt s;
+Select s such that Uses(s, "a")
+7, 4, 2, 12, 11, 17, 16 
+5000
+2 - valid query with ONE Uses but has empty results 
+stmt s;
+Select s such that Uses(s, "abc")
+
+5000
+3 - valid query with ONE Uses 
+stmt s; variable var;
+Select s such that Uses(s, var)
+1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 24, 25, 26, 28
+5000
+4 - valid query with ONE Uses
+stmt s; variable var;
+Select var such that Uses(s, var)
+b, c, x, y, z, a, d, e, f, g, p, m, n
+5000
+5 - valid query with ONE Uses
+stmt s;
+Select s such that Uses(s, _)
+1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 24, 25, 26, 28
+5000
+6 - valid query with ONE Uses but has empty results 
+print p;
+Select p such that Uses(p, "b")
+9
+5000
+7 - valid query with ONE Uses 
+stmt s;
+Select s such that Uses(9, "b")
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
+5000
+8 - valid query with ONE Uses but has empty results 
+stmt s;
+Select s such that Uses(3, "x")
+
+5000
+9 - valid query with ONE Uses
+print p;
+Select p such that Uses(14, _)
+9, 12, 13, 19, 25, 26
+5000
+10 - valid query with ONE Uses (empty result as stmt 10 is Modifies) 
+read r;
+Select r such that Uses(8, _)
+
+5000
+11 - valid query with ONE Uses 
+variable v;
+Select v such that Uses(10, v)
+x, y
+5000

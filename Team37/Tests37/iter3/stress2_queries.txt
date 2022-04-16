@@ -1,0 +1,10 @@
+1 - follows
+stmt s, s1; 
+Select s such that Follows*(s,s1) and Follows*(s,3) and Follows*(s,4) and Follows*(s,5) and Follows*(s,6) and Follows*(s,7) and Follows*(s,8) and Follows*(s,9) and Follows*(s,10) and Follows*(s,11) and Follows*(s,22) and Follows*(s,23) and Follows*(s,24) and Follows*(s,25) and Follows*(s,26) and Follows*(s,27) and Follows*(s,28) and Follows*(s,29) and Follows*(s,20) and Follows*(s,31) and Follows*(s,43) and Follows*(s,44) and Follows*(s,45) and Follows*(s,46) and Follows*(s,47) and Follows*(s,48) and Follows*(s,49) and Follows*(s,50) and Follows*(s,51) and Follows*(s,52) and Follows*(s,53) and Follows*(s,54) and Follows*(s,55) and Follows*(s,56) and Follows*(s,57) and Follows*(s,58) and Follows*(s,59) and Follows*(s,60) and Follows*(s,61)
+
+20000
+2 - next
+stmt s, s1; 
+Select s such that Next*(s,s1) and Next*(s,3) and Next*(s,4) and Next*(s,5) and Next*(s,6) and Follows*(s,7) and Follows*(s,8) and Follows*(s,9) and Follows*(s,10) and Follows*(s,11) and Follows*(s,22) and Follows*(s,23) and Follows*(s,24) and Follows*(s,25) and Follows*(s,26) and Follows*(s,27) and Follows*(s,28) and Follows*(s,29) and Follows*(s,20) and Follows*(s,31) and Follows*(s,43) and Follows*(s,44) and Follows*(s,45) and Follows*(s,46) and Follows*(s,47) and Follows*(s,48) and Follows*(s,49) and Follows*(s,50) and Follows*(s,51) and Follows*(s,52) and Follows*(s,53) and Follows*(s,54) and Follows*(s,55) and Follows*(s,56) and Follows*(s,57) and Follows*(s,58) and Follows*(s,59) and Follows*(s,60) and Follows*(s,61)
+
+20000

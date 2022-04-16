@@ -1,0 +1,30 @@
+1 - comment
+assign a;
+Select a such that Affects(1, a)
+2, 8, 11
+5000
+2 - comment
+assign a;
+Select a such that Affects(a, 2)
+1
+5000
+3 - comment
+assign a;
+Select a such that Affects*(a, 2)
+1
+5000
+4 - comment
+assign a;
+Select a such that Affects*(11, a)
+none
+5000
+5 - comment
+assign a;
+Select a such that Affects(2, a)
+5
+5000
+6 - comment
+procedure p; assign a1, a2;
+Select p such that Affects(a1, a2)
+p, q
+5000

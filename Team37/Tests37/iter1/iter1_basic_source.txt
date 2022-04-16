@@ -1,0 +1,37 @@
+procedure basic {
+    a = 1;
+    b = 2;
+    c = 3;
+
+    a = a * 2;
+    b = b + 1;
+    c = c - 1;
+    d = 10 / a;
+    e = a * b / c + x * y * z - i + d;
+
+    read hello;
+    print DeFG;
+
+    G = 12324141242141414141 * g;
+    e = helloworld * 10;
+    abcDEF123 = 123;
+
+    if (x > c) then {
+        abc = 123;
+        count = count + 2;
+        read abc;
+        print cfG;
+    } else {
+        abc = 456;
+        count = count + 123;
+        read a;
+        print G;
+    }
+
+    while (i != 123) {
+        abc = 12;
+        count = count + 1;
+        read a;
+        print G;
+    }
+}

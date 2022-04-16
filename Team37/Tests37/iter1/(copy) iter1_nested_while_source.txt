@@ -1,0 +1,52 @@
+procedure testWhile {
+
+    a = b + 1;                                      //1
+
+    if (a > b) then {                               //2
+
+        while ( b == (c + 2)) {                     //3
+            print x;                                //4
+            x = (b - c) * 2;                        //5
+        }                                       
+
+        while ((x % 2) != 0) {                      //6
+            d = 4;                                  //7
+            print d;                                //8
+	        read x;				                    //9
+
+            while (d > (y / 5)) {                   //10
+                y = y + y / y - z * y; 	            //11
+            }      
+            z = z * 2 / 3; 	                        //12
+        }    
+
+        b = b + 1;                                  //13
+    
+    } else {
+
+        while ((x <= f) && (x == 6)) {              //14
+
+            while (x < 7) {                  	    //15
+                print z;                     	    //16
+                
+		        while (y >= 8) {            	    //17
+                    read z; 	                    //18
+                } 
+            } 
+	    } 
+    }             
+
+    while (!(e != e)) {                             //19  
+        read f;                                     //20
+        f = g + 7;                                  //21
+        read g; 				                    //22
+    }  
+
+    while ((a != b) || (c > d)) {                   //23
+        print c;                                    //24
+        c = d + 7;                                  //25
+        print d; 				                    //26
+    }                             
+                                   
+    print z;                                        //27
+}

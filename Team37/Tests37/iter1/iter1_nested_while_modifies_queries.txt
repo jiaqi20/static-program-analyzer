@@ -1,0 +1,65 @@
+36 - valid query with ONE Modifies
+read r;
+Select r such that Modifies(r, "x")
+9
+5000
+37 - valid query with ONE Modifies but has empty results 
+read r;
+Select r such that Modifies(r, "a")
+
+5000
+38 - valid query with ONE Modifies 
+stmt s; read r;
+Select r such that Modifies(s, _)
+9, 18, 20, 22
+5000
+39 - valid query with ONE Modifies
+read r1; variable v1;
+Select v1 such that Modifies(r1, v1)
+x, z, f, g
+5000
+40 - invalid query with ONE Modifies (no declaration)
+print p;
+Select p such that Modifies(_, "a1")
+
+5000
+41 - invalid query with ONE Modifies
+read r;
+Select r such that Modifies(_, _)
+
+5000
+42 - invalid query with ONE Modifies 
+variable v;
+Select v such that Modifies(_, v)
+
+5000
+43 - valid query with ONE Modifies 
+stmt s;
+Select s such that Modifies(2, "y")
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+5000
+44 - valid query with ONE Modifies 
+variable v;
+Select v such that Modifies(21, _)
+a, b, c, d, e, f, g, x, y, z
+5000
+45 - valid query with ONE Modifies 
+variable v; 
+Select v such that Modifies(6, v)
+d, x, y, z
+5000
+45 - valid query with ONE Modifies but has empty results 
+variable v; 
+Select v such that Modifies(4, v)
+
+5000
+46 - invalid query with ONE Modifies (stmtRef is out of range) 
+variable v; 
+Select v such that Modifies(55, v)
+
+5000
+47 - valid query with ONE Modifies 
+variable v; 
+Select v such that Modifies(2, v)
+d, x, y, z, b
+5000
